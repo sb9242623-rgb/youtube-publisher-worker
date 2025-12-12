@@ -1,0 +1,24 @@
+{
+  "name": "youtube-publisher-worker",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node src/index.js",
+    "test": "node tests/simulateChunkFailure.js || echo \"TODO: add tests\""
+  },
+  "dependencies": {
+    "axios": "^1.7.0",
+    "bullmq": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "google-auth-library": "^9.14.0",
+    "ioredis": "^5.4.2",
+    "form-data": "^4.0.0",
+    "body-parser": "^1.20.3"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.2"
+  }
+}
